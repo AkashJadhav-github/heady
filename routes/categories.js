@@ -9,6 +9,6 @@ router.get('/', function(req, res, next) {
 
 router.get('/all', categoriesService.fetchAll);
 
-router.post('/add', categoriesService.addCategory);
+router.post('/', categoriesService.addCategory);
 
 module.exports = router;
